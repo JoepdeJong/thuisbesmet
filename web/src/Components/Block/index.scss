@@ -1,0 +1,29 @@
+.Block {
+    h2 {
+        position: absolute;
+        top: -24px;
+        margin: 0;
+    }
+
+    background-color: #ec6468;
+    display: block;
+    position: relative;
+    margin-top: 64px;
+    padding: 32px;
+    font-size: 16px;
+    
+    p {
+        font-size: 16px;
+    }
+
+    &.secundary {
+        background-color: #22545e;
+        color: #ffffff;
+
+        h2 {
+            color: #22545e;
+            font-size: 18px;
+        }
+    }
+
+}

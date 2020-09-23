@@ -1,0 +1,13 @@
+.Footer {
+    &__logos {
+        display: flex;
+        justify-content: space-around;
+        max-width: 400px;
+        margin: auto;
+        flex-wrap: wrap;
+
+        img {
+            max-height: 72px;
+        }
+    }
+}

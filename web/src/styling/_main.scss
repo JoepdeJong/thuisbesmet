@@ -1,0 +1,109 @@
+body {
+    background-color: #63c0be;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.MainComponent {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 16px auto;
+    padding: 8px;
+}
+
+.Banner {
+
+    & > div {
+        max-width: 768px;
+        margin: 32px auto;
+    }
+}
+
+.List {
+    font-size: 18px;
+    counter-reset: tb-counter;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 0px;
+
+    li {
+        line-height: 1.6em;
+        margin-bottom: 1em;
+        counter-increment: my-awesome-counter;
+        display: flex;
+        padding-left: 64px;
+        position: relative;
+        min-height: 48px;
+
+        &:before {
+            position: absolute;
+            top: 8px;
+            left: 0px;
+            content: counter(my-awesome-counter) '.';
+            font-weight: bold;
+            font-size: 40px;
+            font-family: 'Poppins';
+            text-align: right;
+            width: 48px;
+            display: block;
+            // line-height: 1.6em;
+        }
+    }
+}
+
+.SideToSide {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+
+    .Block {
+        flex: 1;
+        flex-basis: 250px;
+        margin: 32px 16px;
+    }
+}
+.Button {
+    background-color: #22545e;
+    color: #ffffff;
+    padding: 8px 16px;
+    transform: rotate(-2deg);
+    margin-left: 16px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Poppins', 'Arial';
+    font-weight: 900;
+    cursor: pointer;
+    margin: 8px;
+    margin-bottom: 32px;
+
+    &:hover {
+        background-color: #ec6468;
+    }
+    &.active {
+        background-color: #ec6468;
+        color: #fce567;
+    }
+}
+
+a.Button {
+    text-decoration: none;
+}
+
+.Video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
