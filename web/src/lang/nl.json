@@ -1,0 +1,107 @@
+{
+    "translation":{
+      "survey":{
+        "title":"Enquête",
+        "text":"Om de befoeften, het bewustzijn en de bereidheid van de studenten te peilen hebben wij een enquête gemaakt. Het zou ons veel helpen als jij deze invult! De enquête bestaat voornamelijk uit meerkeuzevragen, dus het invullen is maar enkele minuten werk!",
+        "btnFillOut":"Vul in!",
+        "url":"https://docs.google.com/forms/d/e/1FAIpQLSdtIs-dKH4aFBnO4--tbdCwN5bzbBai2eM1JDWB-igo6I3cSA/viewform"
+      },
+      "video":{
+        "title":"Videoboodschap"
+      },
+      "intro":{
+        "title":"Het is 5 voor 12",
+        "text":"<p>Het is 5 voor 12 in Delft. Het aantal coronabesmettingen stijgt onvoorstelbaar hard. Voornamelijk gebeurt dit onder ons, de studentenpopulatie, 80% van de positief geteste Delftenaren is namelijk student.</p><p>Aan ons, studenten, de taak om het tij te keren. Samen kunnen wij iets doen tegen Corona. <b>De meeste besmettingen vinden in een thuissituatie plaats</b>, dus jij kunt hier iets in betekenen! Als we <b>nu</b> drastische veranderingen aanbrengen in ons gedrag is een Delftse <b>lockdown</b> nog te voorkomen.</p><p>Deze website is opgericht voor én door studenten. Je vindt hier meer belangrijke informatie over typische studenten vraagstukken rondom corona.</p>"
+      },
+      "do":{
+        "title":"Wat kan jij doen?",
+        "lists":[
+            {
+                "name": "general",
+                "title":"Wat kan jij doen?",
+                "button":"in het algemeen",
+                "items":[
+                    "Probeer zo veel mogelijk buiten af te spreken, waarbij de anderhalve meter in acht gehouden wordt. ",
+                    "Kom niet bij andere huizen binnen, tenzij het echt niet anders kan.",
+                    "Heb je (milde) klachten? Ga in isolatie en wacht niet met testen!",
+                    "Heeft er iemand in je huis klachten? Ga met je huis in quarantaine als deze klachten koorts- of benauwdheidsklachten zijn.",
+                    "Positief testresultaat? Blijf in isolatie! Huisgenoten gaan ook in quarantaine als ze dat niet al waren!",
+                    "Reis niet naar je ouders als je gezondheidsklachten hebt!",
+                    "Probeer studentenactiviteiten of samenkomsten in andere steden zoveel mogelijk te vermijden.",
+                    "Boodschappenochtend: probeer tussen 8.00 en 12.00 's ochtends de supermarkten niet te bezoeken."
+                ]
+            },
+            {
+                "name":"corona",
+                "title":"Wat kan jij doen als je corona hebt?",
+                "button":"als je corona hebt",
+                "items":[
+                    "Blijf in isolatie!",
+                    "Luister naar de adviezen van de GGD.",
+                    "Heb het erover met je huis en nauwe contacten, zij moeten ook in quarantaine!"
+                ]
+
+            },
+            {
+                "name":"isolation",
+                "title":"Wat kan jij doen als je in isolatie zit?",
+                "button":"als je in isolatie zit",
+                "items":[
+                    "Verlaat je kamer niet! Laat huisgenoten eten en drinken achter de deur klaarzetten.",
+                    "Laat huisgenoten boodschappen voor je doen.",
+                    "Laat indien mogelijk huisgenoten een speciale corona badkamer (en wc) maken!",
+                    "Tip: Gebruik Zoom en Discord om toch nog je vrienden en familie te kunnen zien!"
+                ]
+            }
+        ]
+      },
+      "consequences":{
+        "title":"Wat zijn de gevolgen als we ons niet aan de regels houden?",
+        "current":{
+          "title":"Huidige situatie",
+          "text":"<p>Je staat ‘s ochtends op en volgt over het algemeen veel digitaal onderwijs. Af en toe krijg je de mogelijkheid om een fysiek college bij te wonen en daarnaast organiseert de universiteit (kleinschalige) activiteiten. Na je studiedag kan je sporten op de universiteit of bij een sportschool, waarna je gezellig met je huisgenoten een maaltijd neerzet om vervolgens lekker een drankje te gaan doen op de Markt, Beestenmarkt of het Doelenplein.</p>"
+        },
+        "future":{
+          "title":"Indien er geen verandering komt",
+          "text":"<p>Op het moment dat Delftenaren (jij dus ook!) in een lokale lockdown moeten, is het onder andere afgelopen met het fysieke onderwijs, het sporten en het pakken van terrasjes op de Bema. We verliezen onze vrijheden weer die we de afgelopen maanden hebben gekregen en gaan terug naar de intelligente lockdown van aan het begin van de corona crisis. Reden te meer om jezelf, vrienden en huisgenoten te stimuleren om je echt aan de maatregelen te houden!</p>"
+        }
+      },
+      "groceries":{
+        "title":"Boodschappenpchtend",
+        "text":"<p>Naar aanleiding van de naar voren geschoven persconferentie van 18 september en de mogelijk komende maatregelen, willen wij graag een student-vrije boodschappenochtend faciliteren. Wij willen jou, de Delftse student, vragen om de supermarkten in Delft te mijden in de ochtenduren (specifiek van 8:00-12:00). Dit is met nadruk een oproep aan jou en dus niet een verplichting. Het is een kleine moeite en kan in ieder geval geen kwaad, maar het kan wél een groot statement zijn. Omdat het geen verplichting is, kan je dus nog steeds in de ochtend naar de supermarkt als het nodig is, maar vragen we je dan een mondkapje te dragen.</p>",
+        "btnNl":{
+          "title":"Bekijk de oproep (NL)",
+          "url":"https://thuisbesmet.nl/media/poster-boodschappenochtend.pdf"
+        },
+        "btnEn":{
+          "title":"Bekijk de oproep (EN)",
+          "url":"https://thuisbesmet.nl/media/poster-groceries.pdf"
+        } 
+      },
+      "help":{
+        "title":"Hoe kan jij helpen?",
+        "text":"<p>We hebben een poster gemaakt die je kan verspreiden, bijvoorbeeld binnen je huis of je sportclub. De meest doeltreffende manier om te helpen is uiteraard dat jij je goed aan de maatregelen houdt! Voel je niet bezwaard elkaar op onverstandig gedrag aan te spreken, samen kunnen we zorgen voor het bewustzijn, en daarmee kunnen we een <b>lokale lockdown</b> voorkomen.</p>",
+        "poster":"<p><i>Ben jij initiatiefnemer van een andere stad, en wil je de poster verspreiden met eigen logo's? Neem dan contact op via poster@thuisbesmet.nl en voeg eigen (witte) logos in vector-format bij.</i></p>",
+        "btnNl":{
+          "title":"Download de poster (NL)",
+          "url":"https://thuisbesmet.nl/media/poster-corona-spelregels.pdf"
+        },
+        "btnEn":{
+          "title":"Download de poster (EN)",
+          "url":"https://thuisbesmet.nl/media/poster-corona-measures.pdf"
+        }
+      },
+      "thinkAlong":{
+        "title":"Meedenken?",
+        "text":"<p>Mocht je graag nog meer willen helpen, dan nodigen we je graag uit voor een van onze nederlands- of engelstalige denktanks. Hierin willen we in een klein groepje gaan brainstormen over wat juiste vervolgstappen zijn voor de kortetermijn campagne en hoe we op lange termijn er bijvoorbeeld voor kunnen zorgen dat studenten hun sociale leven kunnen voortzetten terwijl zij alle maatregelen in acht nemen. Een leuke casus om alvast over na te denken is het volgende.</p> <p><i>Hoe kunnen we ervoor zorgen dat studenten hun doorgaans sociale leven kunnen voortzetten als het straks kouder wordt? Welke mogelijkheden zijn er dan voor buiten, want bij elkaar in huis afspreken moet juist nu voorkomen worden.</i></p> <p>Voel jij je geroepen mee te denken?</p>",
+        "btnSignUp":{
+          "title":"Aanmelden",
+          "url":"https://docs.google.com/forms/d/e/1FAIpQLScgaxZs06AUcp4tKFUeCLPamuDgsVF1s7MNHqm1nUmcOXDhYQ/viewform"
+        }
+      },
+      "contact":{
+        "title":"Wil je met ons in contact komen?",
+        "collab":"<p>Deze campagne is opgezet door studenten die nauw contact houden met:</p>"
+      }
+    }
+}

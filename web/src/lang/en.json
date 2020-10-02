@@ -1,0 +1,12 @@
+{
+    "translation": {
+        "survey": {
+          "title": "Survey",
+          "btnFillOut": "Fill out!",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfBDe1Nyvl8DSwu_IJS9EID5RjzmdkLFEo_qgLcHYJFk5Kw8Q/viewform"
+        },
+        "video": {
+          "title": "Video message"
+        }
+    }
+}
