@@ -1,5 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import LanguageDetector from 'i18next-browser-languagedetector';
 
 import en from './lang/en.json'
 import nl from './lang/nl.json'
@@ -13,9 +14,12 @@ const resources = {
 
 i18n
   .use(initReactI18next) // passes i18n down to react-i18next
+  .use(LanguageDetector)
   .init({
     resources,
-    lng: "nl",
+    fallbacks: true,
+    fallbackLng: "nl",
+    whitelist: ['nl', 'en'],
     react: {
         transKeepBasicHtmlNodesFor: ['br', 'b', 'i', 'p']
     },

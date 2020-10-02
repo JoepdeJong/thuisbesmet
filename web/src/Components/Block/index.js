@@ -6,7 +6,7 @@ export default function Block(props) {
         <div className={`Block`+(props.secundary?' secundary':'')}>
             <h2>{props.title}</h2>
             <div className="Block__content">
-                <p>{props.children}</p>
+                {props.children}
             </div>
         </div>
     )

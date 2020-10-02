@@ -1,12 +1,107 @@
 {
-    "translation": {
-        "survey": {
-          "title": "Survey",
-          "btnFillOut": "Fill out!",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfBDe1Nyvl8DSwu_IJS9EID5RjzmdkLFEo_qgLcHYJFk5Kw8Q/viewform"
+    "translation":{
+      "survey":{
+        "title":"Survey",
+        "text":"To get a better view on the needs, conscience and willingness of the students, we have made a survey. It would help immensely if you fill in this survey! The survey mostly consists of multiple choice questions, so filling it in will only take a few minutes!",
+        "btnFillOut":"Fill out!",
+        "url":"https://docs.google.com/forms/d/e/1FAIpQLSfBDe1Nyvl8DSwu_IJS9EID5RjzmdkLFEo_qgLcHYJFk5Kw8Q/viewform"
+      },
+      "video":{
+        "title":"Video message"
+      },
+      "intro":{
+        "title":"Time is running out",
+        "text":"<p>Time is running out in Delft. The amount of Corona contaminations is increasing rapidly. Students make up for about 80% of the total contaminations in Delft.</p><p>So we, the students, have the task to change this. together we can do something about Corona. <b>Most of the contamination takes place in student households</b>, so you can help! If we change our behaviour right now, we might prevent a <b>local lockdown</b>.</p><p>This website is founded by and for students. Here you can find information about typical student problems about Corona.</p>"
+      },
+      "do":{
+        "title":"What can you do?",
+        "lists":[
+            {
+                "name": "general",
+                "title":"What can you do?",
+                "button":"in general",
+                "items":[
+                    "Meet outside when you can and keep 1.5 meters between each other. ",
+                    "Don’t enter other houses when it’s not completely necessary.",
+                    "When you have symptoms: go in isolation and go to the GGD for a test, even with mild symptoms!",
+                    "Do you have housemates with symptoms? Go in quarantine if these symptoms include a fever and/or shortness of breath? ",
+                    "Did your test return positive? Stay in isolation! Your housemates also need to go in quarantine (if they weren’t already). ",
+                    "Do not visit your parents if you have any health complaints!",
+                    "Try to avoid student activities or meetings in other cities. ",
+                    "Grocery morning: Try to avoid supermarkets between 8:00 and 12:00 o’clock. "
+                ]
+            },
+            {
+                "name":"corona",
+                "title":"What can you do if you have corona?",
+                "button":"if you have corona",
+                "items":[
+                    "Stay in isolation!",
+                    "Listen to the advice of the GGD (the public health service).",
+                    "Talk to your housemates and close friends, they have to go in quarantine too!"
+                ]
+
+            },
+            {
+                "name":"isolation",
+                "title":"What can you do if you are in isolation?",
+                "button":"if you are in isolation",
+                "items":[
+                    "Don’t leave your room! Ask your housemates to put food and drinks in front of your door.",
+                    "Ask your housemates to go to the supermarket to get food, don’t do this yourself.",
+                    "Make a special corona bathroom (and wc), if you have the possibility to do so.",
+                    "Tip: Use Zoom and Discord to stay connected with friends and family."
+                ]
+            }
+        ]
+      },
+      "consequences":{
+        "title":"What are the consequences if we don’t obey the rules?",
+        "current":{
+          "title":"Current situation",
+          "text":"<p>You wake up in the morning and you generally study via digital platforms. Occasionally you get the possibility to follow lectures on campus and besides that the university hosts a few (small scale) activities. After your study day you can go sporting on the campus or in a fitness centre. In the evening you can eat with a few friends, after which you have the option to continue with a few drinks with them at the Markt, Beestenmarkt or het Doelenplein.</p>"
         },
-        "video": {
-          "title": "Video message"
+        "future":{
+          "title":"If we don’t change our behaviour",
+          "text":"<p>When residents in Delft (this means you as well!) have to go in a local lockdown, a lot of things change. There will be no physical education anymore, and it will not be possible anymore to sport or to grab some drinks somewhere in Delft. We will lose the freedom again we got back over the past few months, since we will have to go back to the “Intelligent lockdown” like in the beginning of the crisis. All the more reason to motivate yourself, your friends and your housemates to really obey the current rules!</p>"
         }
+      },
+      "groceries":{
+        "title":"Grocery morning",
+        "text":"<p>As a result of the press conference of the 18th of September which was pushed forward, we want to facilitate a student-free grocery morning. We want to ask you, a student of Delft, to avoid supermarkets during the morning hours (specifically from 8:00-12:00 o’clock). Note that this is a request, not an obligation. It’s a small effort and it won’t hurt anyone if we do this, but it can be a big statement. Because this is not an obligation, you can still get groceries in the morning if this is really necessary, but if you do we want to ask you to wear a face mask.</p>",
+        "btnNl":{
+          "title":"The Appeal (NL)",
+          "url":"https://thuisbesmet.nl/media/poster-boodschappenochtend.pdf"
+        },
+        "btnEn":{
+          "title":"The Appeal (EN)",
+          "url":"https://thuisbesmet.nl/media/poster-groceries.pdf"
+        } 
+      },
+      "help":{
+        "title":"How can I help?",
+        "text":"<p>We have made a poster which you can help to distribute, for example within your house or your sports club. However, the most effective way to help is to make sure you follow the corona measures! Don’t feel burdened to speak up to others who are not following the rules. Only together we can make sure students take their responsibility and prevent a local lockdown.</p>",
+        "poster":"<p><i>Are you an initiator in another city, and do you want to spread this poster with your own logo? Please contact us by email on poster@thuisbesmet.nl and attach your (white) logos in vector-format.</i></p>",
+        "btnNl":{
+          "title":"Download the poster (NL)",
+          "url":"https://thuisbesmet.nl/media/poster-corona-spelregels.pdf"
+        },
+        "btnEn":{
+          "title":"Download the poster (EN)",
+          "url":"https://thuisbesmet.nl/media/poster-corona-measures.pdf"
+        }
+      },
+      "thinkAlong":{
+        "title":"Want to think along?",
+        "text":"<p>If you would like to help some more, you are invited by us to join one of our Dutch or English Thinktank sessions. During these sessions we come together in small groups to brainstorm about what would be the best next steps for certain problems and what can be done in the short-term. We also look at long-term problems, like how can students still maintain a social life while following all the measures. A nice topic to think about before joining such a session:</p> <p><i>How can we facilitate that students can maintain a social life when the weather is getting colder? What options are left over for meeting people outside, because coming together within houses has to be prevented as much as possible right now.</i></p> <p>Do you feel called to think along? Then please sign up for a Thinktank session!</p>",
+        "btnSignUp":{
+          "title":"Sign Up",
+          "url":"https://docs.google.com/forms/d/e/1FAIpQLScgaxZs06AUcp4tKFUeCLPamuDgsVF1s7MNHqm1nUmcOXDhYQ/viewform"
+        }
+      },
+      "contact":{
+        "title":"Do you want to contact us?",
+        "collab":"<p>The initators of this campaign are in close contact with:</p>"
+      }
     }
 }

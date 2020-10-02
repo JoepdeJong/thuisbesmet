@@ -15,14 +15,14 @@ export default function Home() {
             </section>
             <h2>{t('video.title')}</h2>
             <div className="Video">
-                <iframe title="Videomessage Mayor Marja van Bijsterveldt &amp; Vice Rector Magnificus Rob Mudde" src="https://www.youtube-nocookie.com/embed/2pfSO6nfUwc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title="Videomessage Mayor Marja van Bijsterveldt &amp; Vice Rector Magnificus Rob Mudde" src="https://www.youtube-nocookie.com/embed/2pfSO6nfUwc" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
             <Block title={t('intro.title')}>
                 <Trans i18nKey="intro.text"></Trans>
             </Block>
 
             <h2>{t('do.title')}</h2>
-            <ActionList/>
+            <ActionList t={t}/>
             
             <h2>{t('consequences.title')}</h2>
 
