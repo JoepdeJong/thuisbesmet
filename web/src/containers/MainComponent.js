@@ -1,20 +1,14 @@
-import React, { Component } from 'react'
-import { ReactSVG } from 'react-svg';
-
-import banner from '../assets/img/owtb-banner.svg';
+import React from 'react'
 import Footer from '../Components/Footer';
+import Header from '../Components/Header';
 import Home from './Home'
 
-export default class MainComponent extends Component {
-  render() {
-    return (
-      <div className="MainComponent">
-          <div className="Banner">
-          <ReactSVG src={banner} />
-          </div>
-          <Home/>
-          <Footer/>
-      </div>
-    )
-  }
+export default function MainComponent() {
+  return (
+    <div className="MainComponent">
+        <Header/>
+        <Home/>
+        <Footer/>
+    </div>
+  )
 }

@@ -1,15 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './index.scss'
 
-export default class Block extends Component {
-    render() {
-        return (
-            <div className={`Block`+(this.props.secundary?' secundary':'')}>
-                <h2>{this.props.title}</h2>
-                <div className="Block__content">
-                    <p>{this.props.children}</p>
-                </div>
+export default function Block(props) {
+    return (
+        <div className={`Block`+(props.secundary?' secundary':'')}>
+            <h2>{props.title}</h2>
+            <div className="Block__content">
+                {props.children}
             </div>
-        )
-    }
+        </div>
+    )
 }
