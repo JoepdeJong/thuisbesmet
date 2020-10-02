@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import LogoVera from '../../assets/img/logo-vera.svg'
 import LogoTuDelft from '../../assets/img/logo-tudelft.svg'
 import LogoGgd from '../../assets/img/logo-ggd-haaglanden.png'
+import LogoGemeenteDelft from '../../assets/img/logo-gemeente-delft.svg'
 
 import './index.scss'
 
@@ -21,6 +22,7 @@ export default class Footer extends Component {
                 <div className="Footer__logos">
                     <img src={LogoTuDelft} alt="TU Delft"/>
                     <img src={LogoGgd} alt="GGD Haaglanden"/>
+                    <img src={LogoGemeenteDelft} alt="Gemeente Delft"/>
                     <img src={LogoVera} alt="Verenigingen Raad"/>
                 </div>
             </div>
