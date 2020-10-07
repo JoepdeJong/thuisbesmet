@@ -11,7 +11,7 @@
       },
       "intro":{
         "title":"Time is running out",
-        "text":"<p>Time is running out in Delft. The amount of Corona contaminations is increasing rapidly. Students make up for about 80% of the total contaminations in Delft.</p><p>So we, the students, have the task to change this. together we can do something about Corona. <b>Most of the contamination takes place in student households</b>, so you can help! If we change our behaviour right now, we might prevent a <b>local lockdown</b>.</p><p>This website is founded by and for students. Here you can find information about typical student problems about Corona.</p>"
+        "text":"<p>Time is running out in Utrecht. The amount of corona contaminations is increasing rapidly. Students are currently the largest group to test positively for corona.</p><p>So we, the students, have the task to change this. together we can do something about Corona. Most of the contamination takes place in student households, so you can help! If we change our behaviour right now, we might prevent a local lockdown.</p><p>This website is founded by and for students. Here you can find information about typical student problems about Corona.</p>"
       },
       "do":{
         "title":"What can you do?",
@@ -59,16 +59,16 @@
         "title":"What are the consequences if we don’t obey the rules?",
         "current":{
           "title":"Current situation",
-          "text":"<p>You wake up in the morning and you generally study via digital platforms. Occasionally you get the possibility to follow lectures on campus and besides that the university hosts a few (small scale) activities. After your study day you can go sporting on the campus or in a fitness centre. In the evening you can eat with a few friends, after which you have the option to continue with a few drinks with them at the Markt, Beestenmarkt or het Doelenplein.</p>"
+          "text":"<p>You wake up in the morning and you generally study via digital platforms. Occasionally you get the possibility to follow lectures on campus and besides that the university hosts a few (small scale) activities. After your study day you can go sporting on the campus or in a fitness centre. In the evening you can eat with a few friends, after which you have the option to continue with a few drinks with them at the Neude, Ledig erf or the Ganzenmarkt</p>"
         },
         "future":{
           "title":"If we don’t change our behaviour",
-          "text":"<p>When residents in Delft (this means you as well!) have to go in a local lockdown, a lot of things change. There will be no physical education anymore, and it will not be possible anymore to sport or to grab some drinks somewhere in Delft. We will lose the freedom again we got back over the past few months, since we will have to go back to the “Intelligent lockdown” like in the beginning of the crisis. All the more reason to motivate yourself, your friends and your housemates to really obey the current rules!</p>"
+          "text":"<p>When residents in Utrecht (this means you as well!) have to go in a local lockdown, a lot of things change. There will be no physical education anymore, and it will not be possible anymore to sport or to grab some drinks somewhere in Utrecht. We will lose the freedom again we got back over the past few months, since we will have to go back to the “Intelligent lockdown” like in the beginning of the crisis. All the more reason to motivate yourself, your friends and your housemates to really obey the current rules!</p>"
         }
       },
       "groceries":{
         "title":"Grocery morning",
-        "text":"<p>As a result of the press conference of the 18th of September which was pushed forward, we want to facilitate a student-free grocery morning. We want to ask you, a student of Delft, to avoid supermarkets during the morning hours (specifically from 8:00-12:00 o’clock). Note that this is a request, not an obligation. It’s a small effort and it won’t hurt anyone if we do this, but it can be a big statement. Because this is not an obligation, you can still get groceries in the morning if this is really necessary, but if you do we want to ask you to wear a face mask.</p>",
+        "text":"<p>As a result of the press conference of the 18th of September which was pushed forward, we want to facilitate a student-free grocery morning. We want to ask you, a student of Utrecht, to avoid supermarkets during the morning hours (specifically from 8:00-12:00 o’clock). Note that this is a request, not an obligation. It’s a small effort and it won’t hurt anyone if we do this, but it can be a big statement. Because this is not an obligation, you can still get groceries in the morning if this is really necessary, but if you do we want to ask you to wear a face mask.</p>",
         "btnNl":{
           "title":"The Appeal (NL)",
           "url":"https://thuisbesmet.nl/media/poster-boodschappenochtend.pdf"
@@ -84,11 +84,11 @@
         "poster":"<p><i>Are you an initiator in another city, and do you want to spread this poster with your own logo? Please contact us by email on poster@thuisbesmet.nl and attach your (white) logos in vector-format.</i></p>",
         "btnNl":{
           "title":"Download the poster (NL)",
-          "url":"https://thuisbesmet.nl/media/poster-corona-spelregels.pdf"
+          "url":"https://thuisbesmet.nl/media/utrecht/poster-corona-spelregels.pdf"
         },
         "btnEn":{
           "title":"Download the poster (EN)",
-          "url":"https://thuisbesmet.nl/media/poster-corona-measures.pdf"
+          "url":"https://thuisbesmet.nl/media/utrecht/poster-corona-measures.pdf"
         }
       },
       "thinkAlong":{
