@@ -1,5 +1,5 @@
 FOLDER_PATH="build" ## point it to your static site folder
-BUCKET="thuisbesmet.nl"
+BUCKET="utrecht.thuisbesmet.nl"
 npm install ## you can run your npm or ng commands here
 npm run build ## build script for react
 cd $FOLDER_PATH

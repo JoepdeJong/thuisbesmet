@@ -8,15 +8,15 @@ export default function Home() {
     return (
 
         <div>
-            <section>
+            {/* <section>
                 <h2>{t('survey.title')}</h2>
                 <p>{t('survey.text')}</p>
                 <a className="Button" target="_blank" rel="noopener noreferrer" href={t('survey.url')}>{t('survey.btnFillOut')}</a>
-            </section>
-            <h2>{t('video.title')}</h2>
+            </section> */}
+            {/* <h2>{t('video.title')}</h2>
             <div className="Video">
                 <iframe title="Videomessage Mayor Marja van Bijsterveldt &amp; Vice Rector Magnificus Rob Mudde" src="https://www.youtube-nocookie.com/embed/2pfSO6nfUwc" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            </div>
+            </div> */}
             <Block title={t('intro.title')}>
                 <Trans i18nKey="intro.text"></Trans>
             </Block>
@@ -47,9 +47,9 @@ export default function Home() {
             <a className="Button" target="_blank" rel="noopener noreferrer" href={t('help.btnNl.url')}>{t('help.btnNl.title')}</a> <a className="Button" target="_blank" rel="noopener noreferrer" href={t('help.btnEn.url')}>{t('help.btnEn.title')}</a>
             <Trans i18nKey="help.poster"></Trans>
 
-            <h2>{t('thinkAlong.title')}</h2>
+            {/* <h2>{t('thinkAlong.title')}</h2>
             <Trans i18nKey="thinkAlong.text"></Trans>
-            <a className="Button" target="_blank" rel="noopener noreferrer" href={t('thinkAlong.btnSignUp.url')}>{t('thinkAlong.btnSignUp.title')}</a>
+            <a className="Button" target="_blank" rel="noopener noreferrer" href={t('thinkAlong.btnSignUp.url')}>{t('thinkAlong.btnSignUp.title')}</a> */}
             </section>
         </div>
     )
