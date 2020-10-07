@@ -39,7 +39,7 @@ export default function Home() {
             <section>
                 <h2>{t('groceries.title')}</h2>
                 <Trans i18nKey="groceries.text"></Trans>
-                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('groceries.btnNl.url')}>{t('groceries.btnNl.title')}</a> <a className="Button" target="_blank" rel="noopener noreferrer" href={t('groceries.btnEn.url')}>{t('groceries.btnNl.title')}</a>
+                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('groceries.btnNl.url')}>{t('groceries.btnNl.title')}</a> <a className="Button" target="_blank" rel="noopener noreferrer" href={t('groceries.btnEn.url')}>{t('groceries.btnEn.title')}</a>
             </section>
             <section>
             <h2>{t('help.title')}</h2>

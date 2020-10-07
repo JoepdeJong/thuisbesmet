@@ -9,7 +9,6 @@ const LangSwitcher = () => {
     const changeLang = (lang, path='/') => {
         setLang(lang)
         i18next.changeLanguage(lang)
-        window.history.pushState(lang, lang, path);
     }
     return (
         <div className="LangSwitcher">
