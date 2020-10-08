@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 import * as contentful from 'contentful';
 
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import BlogCard from '../Card';
 
 import './index.scss'
