@@ -1,20 +1,26 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', 'Arial';
     font-weight: 800;
+
+    &.clickable {
+        cursor: pointer;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
 }
 
 h1 {
-    color: #21545e;
-    font-size: 84px;
-    line-height: 1em;
-    a {
-        color: #ec6468;
-        text-decoration: underline;
-        text-decoration-style: dashed;
-        &:hover {
-            text-decoration: none;
-        }
-    }
+    background-color: #ec6468;
+    color: #ffffff;
+    padding: 8px 16px;
+    transform: rotate(-2deg);
+    margin-left: 16px;
+    display: inline-block;
+    font-size: 28px;
+    margin: 0px;
+    margin-top: 64px;
+    margin-bottom: 16px;
 }
 
 h2 {

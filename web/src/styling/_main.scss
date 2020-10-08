@@ -80,12 +80,25 @@ body {
     margin: 8px;
     margin-bottom: 32px;
 
+
+    .Button__default {
+        display: block;
+    }
+    .Button__hover {
+        display: none;
+    }
+
     &:hover {
         background-color: #ec6468;
+        .Button__default {
+            display: none;
+        }
+        .Button__hover {
+            display: block;
+        }
     }
     &.active {
         background-color: #ec6468;
-        color: #fce567;
     }
 }
 

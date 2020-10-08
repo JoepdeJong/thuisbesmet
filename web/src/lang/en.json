@@ -1,10 +1,19 @@
 {
     "translation":{
+      "home": {
+        "title": "Home",
+        "hoverTitle": "Home"
+      },
       "survey":{
         "title":"Survey",
         "text":"To get a better view on the needs, conscience and willingness of the students, we have made a survey. It would help immensely if you fill in this survey! The survey mostly consists of multiple choice questions, so filling it in will only take a few minutes!",
         "btnFillOut":"Fill out!",
         "url":"https://docs.google.com/forms/d/e/1FAIpQLSfBDe1Nyvl8DSwu_IJS9EID5RjzmdkLFEo_qgLcHYJFk5Kw8Q/viewform"
+      },
+      "blog": {
+        "title": "News",
+        "showMore": "Show all posts",
+        "morePosts": "Other news"
       },
       "video":{
         "title":"Video message"

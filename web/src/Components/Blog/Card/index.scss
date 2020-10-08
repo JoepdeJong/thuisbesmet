@@ -1,0 +1,38 @@
+.BlogCard {
+    display: flex;
+    flex-basis: 300px;
+    margin: 0px;
+    padding: 8px;
+    flex-direction: column;
+    // padding: 8px;
+    margin-bottom: 32px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    &__thumbnail {
+        display: flex;
+        margin: 2px;
+        overflow: hidden;
+        img {
+            max-width: 100%;
+        }
+    }
+    &__title {
+        display: none;
+        font-family: 'Poppins', 'Arial';
+        font-weight: 700;
+        background-color: #fce567;
+        color: #ec6468;
+        padding: 4px 10px;
+        transform: rotate(-2deg);
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px;
+        margin-top: -16px;
+
+    }
+}

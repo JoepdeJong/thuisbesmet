@@ -7,10 +7,13 @@ import MainComponent from './containers/MainComponent';
 import * as serviceWorker from './serviceWorker';
 
 import './styling/entry.scss'
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainComponent />
+    <BrowserRouter>
+      <MainComponent />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
