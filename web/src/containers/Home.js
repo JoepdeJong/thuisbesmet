@@ -2,6 +2,8 @@ import React from 'react'
 import ActionList from '../Components/ActionList'
 import Block from '../Components/Block'
 import { useTranslation, Trans } from 'react-i18next';
+import BlogList from '../Components/Blog/List';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     const { t } = useTranslation()
@@ -12,6 +14,11 @@ export default function Home() {
                 <h2>{t('survey.title')}</h2>
                 <p>{t('survey.text')}</p>
                 <a className="Button" target="_blank" rel="noopener noreferrer" href={t('survey.url')}>{t('survey.btnFillOut')}</a>
+            </section>
+            <section>
+                <h2>{t('blog.title')}</h2>
+                <BlogList/>
+                <Link to="/blog" className="Button">{t('blog.showMore')}</Link>
             </section>
             <h2>{t('video.title')}</h2>
             <div className="Video">
