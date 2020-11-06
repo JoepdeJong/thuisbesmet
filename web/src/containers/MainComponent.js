@@ -5,6 +5,7 @@ import Blog from './Blog';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 import Home from './Home'
+import Data from './Data';
 
 export default function MainComponent() {
   return (
@@ -13,6 +14,7 @@ export default function MainComponent() {
         <Switch>
           <Route exact path="/blog" component={Blog}/>
           <Route exact path="/blog/:slug" component={Blog}/>
+          <Route exact path="/data" component={Data}/>
           <Route component={Home}/>
         </Switch>
         <Footer/>
