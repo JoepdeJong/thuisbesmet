@@ -15,6 +15,12 @@
         "showMore": "Show all posts",
         "morePosts": "Other news"
       },
+      "data": {
+        "title": "Data"
+      },
+      "organogram": {
+        "title": "Organogram"
+      },
       "video":{
         "title":"Video message"
       },

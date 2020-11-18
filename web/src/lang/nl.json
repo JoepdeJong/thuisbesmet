@@ -15,6 +15,12 @@
         "showMore": "Bekijk alle berichten",
         "morePosts": "Andere berichten"
       },
+      "data": {
+        "title": "Data"
+      },
+      "organogram": {
+        "title": "Organogram"
+      },
       "video":{
         "title":"Videoboodschap"
       },
