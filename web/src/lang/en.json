@@ -18,6 +18,17 @@
       "data": {
         "title": "Data"
       },
+      "dashboard": {
+        "title": "Dashboard"
+      },
+      "report": {
+        "title": "Report",
+        "text": "<p>We are happy to tell you that the survey has been analyzed! The results of this are presented in the report below. We are currently working on a finalized version in cooperation with a group of students from Leiden.</p>",
+        "btnNl":{
+          "title":"Download the report (NL)",
+          "url":"https://thuisbesmet.nl/media/tussentijds-rapport-enquete.pdf"
+        }
+      },
       "organogram": {
         "title": "Organogram"
       },

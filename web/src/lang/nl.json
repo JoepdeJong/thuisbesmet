@@ -18,6 +18,17 @@
       "data": {
         "title": "Data"
       },
+      "dashboard": {
+        "title": "Dashboard"
+      },
+      "report": {
+        "title": "Rapport",
+        "text": "<p>We zijn blij om te kunnen zeggen dat de resultaten van de enquête verwerkt zijn! De resultaten staan beschreven in een rapport wat hieronder te vinden is. Er word op het moment nog gewerkt aan een definitieve versie in combinatie met een groep studenten uit Leiden.</p>",
+        "btnNl":{
+          "title":"Download het rapport (NL)",
+          "url":"https://thuisbesmet.nl/media/tussentijds-rapport-enquete.pdf"
+        }
+      },
       "organogram": {
         "title": "Organogram"
       },
