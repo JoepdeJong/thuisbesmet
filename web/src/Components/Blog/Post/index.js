@@ -21,8 +21,16 @@ const BlogPost = (props) => {
 const options = {
     renderNode: {
         [BLOCKS.EMBEDDED_ASSET]: ({ data: { target: { fields }}}) =>
-            `<div class="BlogPost__img"><img src="${fields.file.url}" alt="${fields.description}"/></div>`,
+            EmbeddedAsset(fields),
     },
 };
+
+function EmbeddedAsset(fields) {
+    if (fields.description == "video") {
+        return <div class="BlogPost__vid"><iframe width="560" height="315" src={fields.file.url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    } else {
+        return <div class="BlogPost__img"><img src="${fields.file.url}" alt="${fields.description}"/></div>
+    }
+}
 
 export default BlogPost;
