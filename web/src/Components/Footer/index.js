@@ -16,7 +16,7 @@ export default function Footer() {
             <h2>{t('contact.title')}</h2>
             <div>
                 <a href="mailto:geencontact@thuisbesmet.nl" className="Button">geencontact@thuisbesmet.nl</a>
-                <a href="https://wa.me/31623487791" className="Button">0623487791 (whatsapp)</a>
+                {/*<a href="https://wa.me/31623487791" className="Button">0623487791 (whatsapp)</a>*/}
                 <a href="https://www.instagram.com/thuisbesmet/" target="_blank" rel="noopener noreferrer" className="Button">@thuisbesmet (instagram)</a>
             </div>
 
