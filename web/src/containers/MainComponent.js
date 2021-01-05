@@ -7,6 +7,7 @@ import Header from '../Components/Header';
 import Home from './Home'
 import Data from './Data';
 import Organogram from './Organogram';
+import CookieConsent from 'react-cookie-consent';
 
 export default function MainComponent() {
   return (
@@ -20,6 +21,9 @@ export default function MainComponent() {
           <Route component={Home}/>
         </Switch>
         <Footer/>
+        <CookieConsent location="bottom" cookieName="thuisbesmetConsentCookie" expires={999}>
+          This website uses cookies to enhance the user experience.
+        </CookieConsent>
     </div>
   )
 }
