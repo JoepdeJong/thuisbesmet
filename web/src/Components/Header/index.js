@@ -17,7 +17,7 @@ const Header = () => {
             <div className="Nav">
                 <NavLink className="Button" exact to="/"><span className="Button__default">{t('home.title')}</span><span className="Button__hover">{t('home.hoverTitle')}</span></NavLink>
                 <NavLink className="Button" to="/blog">{t('blog.title')}</NavLink>
-                <NavLink className="Button" to="/data">{t('data.title')}</NavLink>
+                <NavLink className="Button" to="/data-delft">{t('data.title')}</NavLink>
             </div>
         </div>
     );

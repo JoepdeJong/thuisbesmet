@@ -5,7 +5,9 @@ import Blog from './Blog';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 import Home from './Home'
-import Data from './Data';
+import DataDelft from './DataDelft';
+import DataLeiden from './DataLeiden';
+import DataUtrecht from './DataUtrecht';
 import Organogram from './Organogram';
 import CookieConsent from 'react-cookie-consent';
 
@@ -16,8 +18,10 @@ export default function MainComponent() {
         <Switch>
           <Route exact path="/blog" component={Blog}/>
           <Route exact path="/blog/:slug" component={Blog}/>
-          <Route exact path="/data" component={Data}/>
+          <Route exact path="/data-delft" component={DataDelft}/>
           <Route exact path="/organogram" component={Organogram}/>
+          <Route exact path="/data-leiden" component={DataLeiden}/>
+          <Route exact path="/data-utrecht" component={DataUtrecht}/>
           <Route component={Home}/>
         </Switch>
         <Footer/>
