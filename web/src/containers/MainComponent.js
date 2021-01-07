@@ -10,6 +10,7 @@ import DataLeiden from './DataLeiden';
 import DataUtrecht from './DataUtrecht';
 import Organogram from './Organogram';
 import CookieConsent from 'react-cookie-consent';
+import ReactGA from 'react-ga';
 
 export default function MainComponent() {
   return (
@@ -25,7 +26,11 @@ export default function MainComponent() {
           <Route component={Home}/>
         </Switch>
         <Footer/>
-        <CookieConsent location="bottom" cookieName="thuisbesmetConsentCookie" expires={999}>
+        <CookieConsent location="bottom" cookieName="thuisbesmetConsentCookie" onAccept={() => { ReactGA.initialize('UA-186551147')
+      ReactGA.pageview(window.location.pathname + window.location.search); }} enableDeclineButton
+      onDecline={() => {
+        console.log("Cookies have been disabled")
+      }} expires={999}>
           This website uses cookies to enhance the user experience. Read our statement <a href="/media/privacy-cookies-thuisbesmet.pdf">here</a>
         </CookieConsent>
     </div>
