@@ -26,7 +26,7 @@ export default function MainComponent() {
         </Switch>
         <Footer/>
         <CookieConsent location="bottom" cookieName="thuisbesmetConsentCookie" expires={999}>
-          This website uses cookies to enhance the user experience.
+          This website uses cookies to enhance the user experience. Read our statement <a href="/media/privacy-cookies-thuisbesmet.pdf">here</a>
         </CookieConsent>
     </div>
   )
