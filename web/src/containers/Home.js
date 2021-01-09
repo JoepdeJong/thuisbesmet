@@ -4,6 +4,7 @@ import Block from '../Components/Block'
 import { useTranslation, Trans } from 'react-i18next';
 import BlogList from '../Components/Blog/List';
 import { Link } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 export default function Home() {
     const { t } = useTranslation()
@@ -51,7 +52,7 @@ export default function Home() {
             <section>
             <h2>{t('help.title')}</h2>
             <Trans i18nKey="help.text"></Trans>
-            <a className="Button" target="_blank" rel="noopener noreferrer" href={t('help.btnNl.url')}>{t('help.btnNl.title')}</a> <a className="Button" target="_blank" rel="noopener noreferrer" href={t('help.btnEn.url')}>{t('help.btnEn.title')}</a>
+            <a className="Button" target="_blank" rel="noopener noreferrer" href={t('help.btnNl.url')} onClick={handleClickPoster}>{t('help.btnNl.title')}</a> <a className="Button" target="_blank" rel="noopener noreferrer" href={t('help.btnEn.url')} onClick={handleClickPoster}>{t('help.btnEn.title')}</a>
             <Trans i18nKey="help.poster"></Trans>
 
             <h2>{t('thinkAlong.title')}</h2>
@@ -60,4 +61,11 @@ export default function Home() {
             </section>
         </div>
     )
+}
+
+function handleClickPoster() {
+    ReactGA.event({
+        category: 'User',
+        action: 'User downloaded poster'
+    })
 }

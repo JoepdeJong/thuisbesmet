@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, withRouter } from 'react-router-dom';
 import Blog from './Blog';
 
 import Footer from '../Components/Footer';
@@ -12,12 +12,13 @@ import Organogram from './Organogram';
 import CookieConsent from 'react-cookie-consent';
 import ReactGA from 'react-ga';
 
-export default function MainComponent() {
+const MainComponent = () => {
 
   useEffect(() => {
     if(getCookie('thuisbesmetConsentCookie')){
       initializeGoogleAnalytics();
     }
+    ReactGA.pageview(window.location.pathname + window.location.search); 
   })
 
   return (
@@ -50,6 +51,7 @@ const getCookie = (name) => {
 }
 
 const initializeGoogleAnalytics = () => { 
-  ReactGA.initialize('G-LEN6YX0T9C')
-  ReactGA.pageview(window.location.pathname + window.location.search); 
+  ReactGA.initialize('UA-186551147-1');
 }
+
+export default withRouter(MainComponent);
