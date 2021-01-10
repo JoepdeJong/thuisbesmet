@@ -4,6 +4,10 @@
         "title": "Home",
         "hoverTitle": "Home"
       },
+      "lieve-mark":{
+        "title": "Lieve Mark",
+        "text": "<p>We are Lieve Mark, an initiative of 7 students from Leiden, Delft and Utrecht, assisted by the Interstedelijk Studenten Overleg. In the fall of 2020 we researched wellbeing, needs and opinions of students in the Netherlands during the corona pandemic.</p><p>Our goal is to give insight to the impact that the corona measures have on students. By doing this the corona policy can be adjusted better to the life of students. We think this is important for a more effective approach and to preserve support for the measures. With a better tailored policy we hope to keep infections low and minimise impact on society.</p><p>We are explicitly not complaining about policy or looking for special treatment. We realise that only together we can control the virus. Therefore, we want to contribute to the discussion how we can keep infections low under students. We also hope that the results of our research can and will be used for devising an intelligent open-up that also works for students.</p>"
+      },
       "survey":{
         "title":"Survey",
         "text":"To get a better view on the needs, conscience and willingness of the students, we have made a survey. It would help immensely if you fill in this survey! The survey mostly consists of multiple choice questions, so filling it in will only take a few minutes!",
@@ -23,10 +27,10 @@
       },
       "report": {
         "title": "Report",
-        "text": "<p>We are happy to tell you that the survey has been analyzed! The results of this are presented in the report below. We are currently working on a finalized version in cooperation with a group of students from Leiden.</p>",
+        "text": "<p>Between the end of September and mid-December <i>Lieve Mark</i> conducted three surveys among students (mostly HBO and WO) in the Netherlands. The purpose of this research is to identify living conditions, wellbeing, needs and opinions of students.</p><p>With more than 7,500 respondents in all big student cities of the Netherlands, this research is one of the most elaborate of students during the corona pandemic. Moreover, we make distinction in age, residence and living situation. In this manner a reliable picture can be drawn of the students.</p><p>The report goes into detail about eight themes that affect the daily life of students, namely: wellbeing, opinion about the measures, quarantine, sense of responsibility and awareness, closure of the hospitality industry, need for study space, financial troubles and use of narcotics.</p><p>The results of this research can be downloaded here:</p>",
         "btnNl":{
-          "title":"Download the report (NL)",
-          "url":"https://thuisbesmet.nl/media/tussentijds-rapport-enquete.pdf"
+          "title":"Download het rapport (NL)",
+          "url":"https://thuisbesmet.nl/media/Easteregg.pdf"
         }
       },
       "organogram": {
@@ -126,7 +130,8 @@
         }
       },
       "contact":{
-        "title":"Do you want to contact us?",
+        "title":"Contact",
+        "text": "<p>Do you want to think with us about minimizing the infections and an intelligent open-up that also works for students? Do you want to contact us to discuss the results of our research? Do you have a student initiative? Or do you have a question or tip for us? We'd like to hear all of it!</p><p>You can contact us on our mail or instagram:</p>",
         "collab":"<p>The initators of this campaign are in close contact with:</p>"
       }
     }
