@@ -14,6 +14,7 @@ export default function Footer() {
     return (
         <div>
             <h2>{t('contact.title')}</h2>
+            <Trans i18nKey="contact.text"></Trans>
             <div>
                 <a href="mailto:geencontact@thuisbesmet.nl" className="Button">geencontact@thuisbesmet.nl</a>
                 {/*<a href="https://wa.me/31623487791" className="Button">0623487791 (whatsapp)</a>*/}

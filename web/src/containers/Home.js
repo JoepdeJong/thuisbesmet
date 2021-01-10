@@ -12,15 +12,27 @@ export default function Home() {
 
         <div>
             <section>
+                <h2>{t('lieve-mark.title')}</h2>
+                <Trans i18nKey="lieve-mark.text"></Trans>
+            </section>
+            <section>
+                <h2>{t('report.title')}</h2>
+                <Trans i18nKey="report.text"></Trans>
+                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('report.btnNl.url')}>{t('report.btnNl.title')}</a>
+            </section>
+            {/*
+            <section>
                 <h2>{t('survey.title')}</h2>
                 <p>{t('survey.text')}</p>
                 <a className="Button" target="_blank" rel="noopener noreferrer" href={t('survey.url')}>{t('survey.btnFillOut')}</a>
             </section>
+            */}
             <section>
                 <h2>{t('blog.title')}</h2>
                 <BlogList/>
                 <Link to="/blog" className="Button">{t('blog.showMore')}</Link>
             </section>
+            {/*
             <h2>{t('video.title')}</h2>
             <div className="Video">
                 <iframe title="Videomessage Mayor Marja van Bijsterveldt &amp; Vice Rector Magnificus Rob Mudde" src="https://www.youtube-nocookie.com/embed/2pfSO6nfUwc" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -49,16 +61,17 @@ export default function Home() {
                 <Trans i18nKey="groceries.text"></Trans>
                 <a className="Button" target="_blank" rel="noopener noreferrer" href={t('groceries.btnNl.url')}>{t('groceries.btnNl.title')}</a> <a className="Button" target="_blank" rel="noopener noreferrer" href={t('groceries.btnEn.url')}>{t('groceries.btnEn.title')}</a>
             </section>
-            <section>
             <h2>{t('help.title')}</h2>
             <Trans i18nKey="help.text"></Trans>
             <a className="Button" target="_blank" rel="noopener noreferrer" href={t('help.btnNl.url')} onClick={handleClickPoster}>{t('help.btnNl.title')}</a> <a className="Button" target="_blank" rel="noopener noreferrer" href={t('help.btnEn.url')} onClick={handleClickPoster}>{t('help.btnEn.title')}</a>
             <Trans i18nKey="help.poster"></Trans>
-
+            
+            <section>
             <h2>{t('thinkAlong.title')}</h2>
             <Trans i18nKey="thinkAlong.text"></Trans>
             <a className="Button" target="_blank" rel="noopener noreferrer" href={t('thinkAlong.btnSignUp.url')}>{t('thinkAlong.btnSignUp.title')}</a>
             </section>
+            */}
         </div>
     )
 }
