@@ -4,6 +4,10 @@
         "title": "Home",
         "hoverTitle": "Thuis"
       },
+      "lieve-mark":{
+        "title": "Lieve Mark",
+        "text": "<p>Wij zijn Lieve Mark, een initiatief van 7 studenten uit Leiden, Delft en Utrecht, bijgestaan door het Interstedelijk Studenten Overleg. In het najaar van 2020 hebben wij onder studenten in heel Nederland onderzoek gedaan naar het welzijn, de behoeftes en de meningen van studenten tijdens de coronapandemie.</p><p>Ons doel is om inzicht te geven in de impact die de coronamaatregelen hebben op studenten. Zo kan er meer maatwerk geboden worden in het coronabeleid. Wij denken dat dit van belang is voor een effectievere aanpak van het coronavirus en voor het behouden van draagvlak voor de maatregelen onder studenten. Wij willen met maatwerk het aantal besmettingen zo laag mogelijk houden en tegelijkertijd de impact op de samenleving beperken.</p><p>Klagen over het huidige coronabeleid of vragen om een uitzonderingspositie is nadrukkelijk niet ons uitgangspunt. Wij realiseren ons dat we uiteindelijk alleen samen het virus onder controle krijgen. Daarom denken wij graag constructief mee over hoe besmettingen onder studenten voorkomen kunnen worden. Wij hopen dan ook dat de resultaten van dit onderzoek gebruikt worden bij het uitdenken van een intelligente open-up die óók werkt voor studenten.</p>"
+      },
       "survey":{
         "title":"Enquête",
         "text":"Om de behoeften, het bewustzijn en de bereidheid van de studenten te peilen hebben wij een enquête gemaakt. Het zou ons veel helpen als jij deze invult! De enquête bestaat voornamelijk uit meerkeuzevragen, dus het invullen is maar enkele minuten werk!",
@@ -23,10 +27,10 @@
       },
       "report": {
         "title": "Rapport",
-        "text": "<p>We zijn blij om te kunnen zeggen dat de resultaten van de enquête verwerkt zijn! De resultaten staan beschreven in een rapport wat hieronder te vinden is. Er word op het moment nog gewerkt aan een definitieve versie in combinatie met een groep studenten uit Leiden.</p>",
+        "text": "<p>Tussen eind september en medio december heeft <i>Lieve Mark</i> drie verschillende enquêtes afgenomen onder studenten (voornamelijk HBO en WO) door heel Nederland. Het doel van dit onderzoek is om de leefomstandigheden, het welzijnsniveau, de behoeftes en de meningen van studenten tijdens de coronapandemie op een laagdrempelige manier in kaart te brengen.</p><p>Met meer dan 7.500 respondenten in alle grote studentensteden in Nederland is dit tot nu toe een van de meest uitgebreide onderzoeken naar studenten tijdens de coronapandemie. Bovendien houden we in dit onderzoek rekening met factoren als leeftijd, woonplaats en woonsituatie. Op die manier wordt een betrouwbaar beeld geschetst van de situatie van studenten.</p><p>Het rapport behandelt acht thema’s die invloed hebben op het dagelijks leven van studenten, namelijk: welzijn, mening over de maatregelen, quarantaine, verantwoordelijkheidsgevoel en bewustzijn, sluiting van de horeca, behoefte aan studieplekken, financiële zorgen en gebruik van verdovende middelen.</p><p>De resultaten van ons onderzoek zijn hieronder te downloaden:</p>",
         "btnNl":{
           "title":"Download het rapport (NL)",
-          "url":"https://thuisbesmet.nl/media/tussentijds-rapport-enquete.pdf"
+          "url":"https://thuisbesmet.nl/media/Easteregg.pdf"
         }
       },
       "organogram": {
@@ -126,7 +130,8 @@
         }
       },
       "contact":{
-        "title":"Wil je met ons in contact komen?",
+        "title":"Contact",
+        "text": "<p>Wil jij met ons meedenken over het beperken van het aantal besmettingen en over een intelligente open-up die óók werkt voor studenten? Wil jij met ons in contact komen om de resultaten van het onderzoek te bespreken? Heb je zelf een studenten initiatief die hier een landingsbaan zou kunnen krijgen? Of heb je een vraag of tip voor ons? Dan horen we dat heel graag!</p><p>Je kunt met ons in contact komen via onze mail of instagram:</p>",
         "collab":"<p>Deze campagne is opgezet door studenten die nauw contact houden met:</p>"
       }
     }
