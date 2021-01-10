@@ -2,7 +2,56 @@
     text-decoration: none;
 }
 .Nav {
+    
+
     .Button {
+        min-width: 64px;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        display: inline-block;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .dropdown-button {
+        background-color: #22545e;
+        color: #ffffff;
+        padding: 8px 16px;
+        transform: rotate(-2deg);
+        margin-left: 16px;
+        display: inline-block;
+        font-size: 18px;
+        font-family: 'Poppins', 'Arial';
+        font-weight: 900;
+        cursor: pointer;
+        margin: 8px;
+        margin-bottom: 0px;
+        text-decoration: none;
+
+
+        .Button__default {
+            display: block;
+        }
+        .Button__hover {
+            display: none;
+        }
+
+        &:hover {
+            background-color: #ec6468;
+            .Button__default {
+                display: none;
+            }
+            .Button__hover {
+            display: block;
+            }
+        }
+        &.active {
+            background-color: #ec6468;
+        }
+
         min-width: 64px;
         text-align: center;
     }
