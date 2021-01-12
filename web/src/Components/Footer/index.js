@@ -13,7 +13,7 @@ export default function Footer() {
     const { t } = useTranslation()
     return (
         <div>
-            <h2>{t('contact.title')}</h2>
+            <h2 id="Contact">{t('contact.title')}</h2>
             <Trans i18nKey="contact.text"></Trans>
             <div>
                 <a href="mailto:geencontact@thuisbesmet.nl" className="Button">geencontact@thuisbesmet.nl</a>

@@ -15,9 +15,7 @@ import ReactGA from 'react-ga';
 const MainComponent = () => {
 
   useEffect(() => {
-    if(getCookie('thuisbesmetConsentCookie')){
-      initializeGoogleAnalytics();
-    }
+    initializeGoogleAnalytics();
     ReactGA.pageview(window.location.pathname + window.location.search); 
   })
 
@@ -34,9 +32,9 @@ const MainComponent = () => {
           <Route component={Home}/>
         </Switch>
         <Footer/>
-        <CookieConsent location="bottom" cookieName="thuisbesmetConsentCookie" onAccept={initializeGoogleAnalytics} enableDeclineButton
+        <CookieConsent location="bottom" cookieName="thuisbesmetConsentCookie" onAccept={initializeGoogleAnalyticsCookies} enableDeclineButton
       onDecline={() => {
-        console.log("Cookies have been disabled")
+        window['ga-disable-UA-186551147-1'] = true;
       }} expires={999}>
           This website uses cookies to enhance the user experience. Read our statement <a href="/media/privacy-cookies-thuisbesmet.pdf">here</a>
         </CookieConsent>
@@ -50,8 +48,14 @@ const getCookie = (name) => {
   if (parts.length === 2) return parts.pop().split(';').shift();
 }
 
+const initializeGoogleAnalyticsCookies = () => { 
+  initializeGoogleAnalytics();
+  window['ga-disable-UA-186551147-1'] = false;
+}
+
 const initializeGoogleAnalytics = () => { 
   ReactGA.initialize('UA-186551147-1');
+  ReactGA.set({ anonymizeIp: true });
 }
 
 export default withRouter(MainComponent);

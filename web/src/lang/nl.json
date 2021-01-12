@@ -5,7 +5,7 @@
         "hoverTitle": "Thuis"
       },
       "lieve-mark":{
-        "title": "Lieve Mark",
+        "title": "Lieve Mark,",
         "text": "<p>Wij zijn Lieve Mark, een initiatief van 7 studenten uit Leiden, Delft en Utrecht, bijgestaan door het Interstedelijk Studenten Overleg. In het najaar van 2020 hebben wij onder studenten in heel Nederland onderzoek gedaan naar het welzijn, de behoeftes en de meningen van studenten tijdens de coronapandemie.</p><p>Ons doel is om inzicht te geven in de impact die de coronamaatregelen hebben op studenten. Zo kan er meer maatwerk geboden worden in het coronabeleid. Wij denken dat dit van belang is voor een effectievere aanpak van het coronavirus en voor het behouden van draagvlak voor de maatregelen onder studenten. Wij willen met maatwerk het aantal besmettingen zo laag mogelijk houden en tegelijkertijd de impact op de samenleving beperken.</p><p>Klagen over het huidige coronabeleid of vragen om een uitzonderingspositie is nadrukkelijk niet ons uitgangspunt. Wij realiseren ons dat we uiteindelijk alleen samen het virus onder controle krijgen. Daarom denken wij graag constructief mee over hoe besmettingen onder studenten voorkomen kunnen worden. Wij hopen dan ook dat de resultaten van dit onderzoek gebruikt worden bij het uitdenken van een intelligente open-up die óók werkt voor studenten.</p>"
       },
       "survey":{
@@ -31,6 +31,10 @@
         "btnNl":{
           "title":"Download het rapport (NL)",
           "url":"https://thuisbesmet.nl/media/Easteregg.pdf"
+        },
+        "onepager":{
+          "title": "Download onze onepager (NL)",
+          "url":"https://thuisbesmet.nl/media/SOS-onepager.pdf"
         }
       },
       "organogram": {
@@ -133,6 +137,60 @@
         "title":"Contact",
         "text": "<p>Wil jij met ons meedenken over het beperken van het aantal besmettingen en over een intelligente open-up die óók werkt voor studenten? Wil jij met ons in contact komen om de resultaten van het onderzoek te bespreken? Heb je zelf een studenten initiatief die hier een landingsbaan zou kunnen krijgen? Of heb je een vraag of tip voor ons? Dan horen we dat heel graag!</p><p>Je kunt met ons in contact komen via onze mail of instagram:</p>",
         "collab":"<p>Deze campagne is opgezet door studenten die nauw contact houden met:</p>"
+      },
+      "about-us":{
+        "title": "Over ons",
+        "text": "<p>Niet naar je universiteit, niet naar de kroeg, niet gaan hockeyen of voetballen en eventjes niet buiten de deur een studieplek. Wat dan wel? Proberen je steentje bij te dragen op je eigen manier! Het voelt goed om een ander te helpen, veel te leren en bezig te zijn. Zo begint elk initiatief nu en raken steeds meer medestudenten betrokken. En als wij naar een ander omkijken, kijken anderen wellicht ook naar ons om!</p><p>Halverwege september hebben we in Delft met een -steeds groter wordende- groep een poging gewaagd het coronavirus enigzins onder controle te krijgen; in ieder geval om er zicht op te krijgen onder studenten. Vanuit daar is het vuurtje aangewakkerd en proberen we te helpen waar kan! Of het nou overleg is in de werkgroep Economisch Herstel van de gemeente, een platform opzetten om lokale horeca aan te kaarten bij medestudenten of eenzame ouderen een hart onder de riem te steken. Ook studentenwelzijn is een onderwerp waar we ons flink mee bezig houden.</p><p>En momenteel zijn we met alle liefde een landingsbaan voor <i>Lieve Mark,</i> met het rapport S.O.S. (Studenten Onderzoeken Samen), en belichten we graag initiatieven die in andere steden zijn opgericht!</p>"
+      },
+      "recommendations": {
+        "wellbeing": {
+          "title": "Welzijn",
+          "text": "Over het algemeen zien we dat het welzijn van de totale onderzoekspopulatie tijdens de periode van versoepelingen veel hoger lag dan tijdens de lockdown en de tweede golf; tot wel 2.5 punten verschil (op een schaal van 1 tot 10). Dit laat zien dat de mentale gesteldheid van studenten lijdt onder de maatregelen die zijn getroffen om de verspreiding van het coronavirus in te dammen. Ze hebben een lange adem, maar de rek is eruit. Wij adviseren handvatten aan te bieden die het voor studenten mogelijk maken om zelf projecten te organiseren zodat zij enerzijds hun energie kwijt kunnen en derzijds perspectief wordt geboden. Zet studenten in als werkstudenten bij gemeentes om mee te helpen de crisis te bestrijden.",
+          "outcome": "Studenten hebben een lange adem, maar de rek is eruit.",
+          "recommendation": "Faciliteer dat studenten zelf projecten organiseren om zo perspectief te bieden."
+        },
+        "measures": {
+          "title": "Mening over de maatregelen",
+          "text": "Van alle respondenten geeft 26% (n = 1.130) aan het niet eens te zijn met de maatregelen. Zo maken studenten zich zorgen over de kwaliteit van hun onderwijs, de status van de economie en voortbestaan van horecaondernemingen. Daarnaast wordt aangekaart dat er onbegrip is voor de wijze waarop het overheidsbeleid wordt gemaakt en gepresenteerd. Er moet meer gebruik gemaakt worden van de kwaliteiten van onze veerkrachtige generatie. Wij zijn experts in communicatie, ‘out of the box’ denken en snel schakelen. Communiceer onderbouwd, transparant en gericht op studenten over maatregelen en betrek de doelgroep. ",
+          "outcome": "Het draagvlak voor maatregelen is groot, maar studenten missen maatwerk.",
+          "recommendation": "Communiceer onderbouwd, transparant en gericht op studenten over maatregelen en betrek de doelgroep."
+        },
+        "quarantine": {
+          "title": "Quarantaine",
+          "text": "Van alle positief geteste studenten (n = 602) is 99% in quarantaine gegaan na hun testuitslag. Dit laat zien dat studenten hun verantwoordelijkheid nemen en zich bewust zijn van het virus. Het probleem is dat veel studenten in studentenhuizen wonen en daardoor meerdere keren in quarantaine hebben moeten verblijven. Dit houdt verband met hun welzijn. Hoe vaker iemand in quarantaine heeft gezeten, hoe minder hoog het cijfer is waarmee zij hun welzijn aangeven. Een volgende aanbeveling is dan ook om coronahotels op te zetten en daarmee langdurige quarantaines in (grote) studentenhuizen te voorkomen. ",
+          "outcome": "99% van de positief geteste studenten gaat in quarantaine (veel hoger dan landelijk gemiddelde).",
+          "recommendation": "Zet coronahotels op om herhaaldelijke besmettingen en langdurige quarantaines in (grote) studentenhuizen te voorkomen."
+        },
+        "awareness": {
+          "title": "Bewustzijn",
+          "text": "Vrijwel alle studenten voelen en nemen verantwoordelijkheid, met name richting de risicogroep. Zo ging van alle positief geteste studenten (n = 602) 99% in quarantaine. Toch hebben studenten hebben vaak het gevoel dat zij als zondebok worden neergezet. Benadruk ook wat studenten goed doen en heb vertrouwen dat studenten goede bedoelingen hebben. ",
+          "outcome": "Vrijwel alle studenten voelen en nemen verantwoordelijkheid, met name richting de risicogroep.",
+          "recommendation": "Benadruk ook wat goed gaat en heb vertrouwen dat studenten goede bedoelingen hebben."
+        },
+        "hospitality": {
+          "title": "Sluiting horeca",
+          "text": "7% van de respondenten toont onbegrip voor de wijze waarop de horeca elke keer weer getroffen wordt door de beperkingen die worden opgelegd door de overheid: <i>“Waarom moet de horeca dicht als maar 2,8% van de besmettingen hieruit komen?”</i>. Daarnaast vragen zij zich af of het sluiten van de horeca wel verstandig is nu juist daar afstand gehandhaafd wordt. Door het sluiten van de horeca lijken immers meer bijeenkomsten thuis georganiseerd te worden, waar zeer beperkt gecontroleerd kan worden. Wij bevelen aan om de horeca en studentenverenigingen in te richten als studieplekken aangezien hier zeer veel vraag naar is. ",
+          "outcome": "Veel studenten denken dat sluiting horeca averechts effect heeft op aantal besmettingen.",
+          "recommendation": "Faciliteer gereguleerde settings in de horeca en op verenigingen als alternatief voor sociaal contact binnenshuis."
+        },
+        "studyspace": {
+          "title": "Studieplekken",
+          "text": "Een groot deel van de respondenten geeft aan zich zorgen te maken om zijn of haar opleiding. Doordat het onderwijs geheel online plaatsvindt missen de respondenten het persoonlijke element. Eveneens ervaren zij moeite met concentreren door de beperkte mogelijkheden om buiten de deur te studeren. De behoefte aan externe studieplekken, vooral in drukke studentenhuizen is dan ook groot. Richt horeca, culturele instellingen en studentenverenigingen in met studie tudieplekken om te faciliteren dat studenten ook buiten huis kunnen studeren. ",
+          "outcome": "Behoefte aan externe studieplekken is groot, vooral in drukke studentenhuizen.",
+          "recommendation": "Richt horeca en studentenverenigingen in als studieplekken ."
+        },
+        "financial": {
+          "title": "Financiële zorgen",
+          "text": "Een op de drie studenten ervaart financiële zorgen door het wegvallen van werk. Voornamelijk studenten werkzaam in de horeca zijn hun baan verloren. De eerdergenoemde werkstudentschappen zouden een mogelijkheid kunnen bieden om studenten enerzijds hun energie nuttig te laten gebruiken en anderzijds bij enkelen die financiële zorgen te verlichten.",
+          "outcome": "Een op de drie studenten ervaart financiële zorgen door het wegvallen van (horeca)werk.",
+          "recommendation": "Zet studenten in als werkstudenten bij gemeentes om mee te helpen de crisis te bestrijden."
+        },
+        "substance": {
+          "title": "Verdovende middelen",
+          "text": "40% van de studenten gebruikt meer drank en drugs sinds het begin van de coronacrisis. Veel studenten vervelen zich en zoeken manieren om even ergens anders aan te denken. Daarnaast nemen veel studenten meer verdovende middelen door kopieergedrag. Een huisavondje nodigt al snel uit voor meedrinken/gebruiken. Wij bevelen dan ook aan alternatieven te bieden zoals sport en spel om verveling tegen te gaan. Het bestrijden van verveling kan het gebruik sterk doen afnemen. ",
+          "outcome": "40% van de studenten gebruikt meer drank en/of drugs en kopieergedrag maakt dit erger.",
+          "recommendation": "Bied alternatieven buitenshuis, zoals sport en spel, om verveling tegen te gaan."
+        }
       }
     }
 }
