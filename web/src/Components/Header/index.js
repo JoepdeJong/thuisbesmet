@@ -5,6 +5,7 @@ import { ReactSVG } from 'react-svg';
 import banner from '../../assets/img/owtb-banner.svg';
 import LangSwitcher from '../LangSwitcher';
 import Anchorlink from '../Anchorlink/AnchorLink';
+import {isMobile} from 'react-device-detect';
 
 import './index.scss'
 const Header = () => {
@@ -25,8 +26,8 @@ const Header = () => {
                 <NavLink className="Button" exact to="/"><span className="Button__default">{t('home.title')}</span><span className="Button__hover">{t('home.hoverTitle')}</span></NavLink>
                 <NavLink className="Button" to="/blog">{t('blog.title')}</NavLink>
                 <Anchorlink className="Button" itemName="Contact"></Anchorlink>
-                <div className="dropdown-menu" onMouseEnter={handleClick} onMouseLeave={handleClick}>
-                    <div className="dropdown-button">Data</div>
+                <div className="dropdown-menu" onMouseEnter={isMobile ? "" : handleClick} onMouseLeave={isMobile ? "" : handleClick}>
+                    <div className="dropdown-button" onClick={isMobile ? handleClick : ""}>Data</div>
                     {click && 
                     <NavLink className="dropdown-button" to="/data-leiden">Enquête A</NavLink>
                     }
