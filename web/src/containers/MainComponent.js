@@ -52,6 +52,7 @@ const getCookie = (name) => {
 
 const initializeGoogleAnalytics = () => { 
   ReactGA.initialize('UA-186551147-1');
+  ReactGA.set({ anonymizeIp: true });
 }
 
 export default withRouter(MainComponent);

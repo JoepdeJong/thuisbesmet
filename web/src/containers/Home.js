@@ -1,25 +1,61 @@
 import React from 'react'
-import ActionList from '../Components/ActionList'
 import Block from '../Components/Block'
 import { useTranslation, Trans } from 'react-i18next';
 import BlogList from '../Components/Blog/List';
 import { Link } from 'react-router-dom';
 import ReactGA from 'react-ga';
+import Carousel from 'react-elastic-carousel'
+import onepager from '../assets/img/onepager.png'
 
 export default function Home() {
     const { t } = useTranslation()
     return (
-
         <div>
+            <section>
+                <div className="onepager">
+                    <img src={onepager} alt="Onepager S.O.S."/>
+                </div>
+            </section>
             <section>
                 <h2>{t('lieve-mark.title')}</h2>
                 <Trans i18nKey="lieve-mark.text"></Trans>
             </section>
             <section>
+                <h2>Aanbevelingen</h2>
+                <Carousel itemsToShow={1}>
+                    <Block title={t('recommendations.wellbeing.title')}>
+                        <Trans i18nKey="recommendations.wellbeing.text"></Trans>
+                    </Block>
+                    <Block title={t('recommendations.measures.title')}>
+                        <Trans i18nKey="recommendations.measures.text"></Trans>
+                    </Block>
+                    <Block title={t('recommendations.quarantine.title')}>
+                        <Trans i18nKey="recommendations.quarantine.text"></Trans>
+                    </Block>
+                    <Block title={t('recommendations.awareness.title')}>
+                        <Trans i18nKey="recommendations.awareness.text"></Trans>
+                    </Block>
+                    <Block title={t('recommendations.hospitality.title')}>
+                        <Trans i18nKey="recommendations.hospitality.text"></Trans>
+                    </Block>
+                    <Block title={t('recommendations.studyspace.title')}>
+                        <Trans i18nKey="recommendations.studyspace.text"></Trans>
+                    </Block>
+                    <Block title={t('recommendations.financial.title')}>
+                        <Trans i18nKey="recommendations.financial.text"></Trans>
+                    </Block>
+                    <Block title={t('recommendations.substance.title')}>
+                        <Trans i18nKey="recommendations.substance.text"></Trans>
+                    </Block>
+                </Carousel>
+            </section>
+            <section>
                 <h2>{t('report.title')}</h2>
                 <Trans i18nKey="report.text"></Trans>
-                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('report.btnNl.url')}>{t('report.btnNl.title')}</a>
+                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('report.btnNl.url')} onClick={handleClickRapport}>{t('report.btnNl.title')}</a>
+                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('report.onepager.url')} onClick={handleClickOnepager}>{t('report.onepager.title')}</a>
             </section>
+            
             {/*
             <section>
                 <h2>{t('survey.title')}</h2>
@@ -31,6 +67,11 @@ export default function Home() {
                 <h2>{t('blog.title')}</h2>
                 <BlogList/>
                 <Link to="/blog" className="Button">{t('blog.showMore')}</Link>
+            </section>
+            <section>
+                <Block title={t('about-us.title')}>
+                    <Trans i18nKey="about-us.text"></Trans>
+                </Block>
             </section>
             {/*
             <h2>{t('video.title')}</h2>
@@ -76,9 +117,16 @@ export default function Home() {
     )
 }
 
-function handleClickPoster() {
+function handleClickRapport() {
     ReactGA.event({
         category: 'User',
-        action: 'User downloaded poster'
+        action: 'Rapport-Download'
+    })
+}
+
+function handleClickOnepager() {
+    ReactGA.event({
+        category: 'User',
+        action: 'Onepager-Download'
     })
 }

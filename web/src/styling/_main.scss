@@ -103,6 +103,29 @@ body {
     }
 }
 
+button.rec-dot_active {
+    background-color: #fce567;
+    box-shadow: 0 0 1px 3px rgba($color: #fce567, $alpha: 0.5);
+
+}
+  
+button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+  box-shadow: 0 0 1px 3px rgba($color: #fce567, $alpha: 0.5);
+}
+
+.sc-bdfBwQ, .lgksPe, .rec-arrow, .rec-arrow-right {
+    &:hover, &:active, &:focus {
+    background-color: #fce567 !important;
+    color: #ec6468 !important;
+    }
+    transition: none;
+}
+
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+
+
 a.Button {
     text-decoration: none;
 }
@@ -121,3 +144,13 @@ a.Button {
         border: 0;
     }
 }
+
+.onepager {
+    img {
+        width: 100%;
+    }
+
+    border: 3px;
+    border-color: black;
+}
+
