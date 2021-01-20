@@ -6,6 +6,7 @@ import LogoGgd from '../../assets/img/logo-ggd-haaglanden.png'
 import LogoGemeenteDelft from '../../assets/img/logo-gemeente-delft.svg'
 import LogoISO from '../../assets/img/logo-iso.svg'
 import LogoPKVV from '../../assets/img/logo-pkvv.svg'
+import LogoLKVV from '../../assets/img/logo-lkvv.png'
 
 import { useTranslation, Trans } from 'react-i18next';
 
@@ -30,6 +31,7 @@ export default function Footer() {
                 <img src={LogoGemeenteDelft} alt="Gemeente Delft"/>
                 <img src={LogoVera} alt="Verenigingen Raad"/>
                 <img src={LogoPKVV} alt="PKvV"/>
+                <img src={LogoLKVV} alt="LKvV"/>
                 <img src={LogoISO} alt="ISO"/>
             </div>
         </div>
