@@ -26,7 +26,7 @@ const Header = () => {
                 <NavLink className="Button" exact to="/"><span className="Button__default">{t('home.title')}</span><span className="Button__hover">{t('home.hoverTitle')}</span></NavLink>
                 <NavLink className="Button" to="/blog">{t('blog.title')}</NavLink>
                 <Anchorlink className="Button" itemName="Contact"></Anchorlink>
-                <div className="dropdown-menu" onMouseEnter={isMobile ? "" : handleClick} onMouseLeave={isMobile ? "" : handleClick}>
+                <div className="dropdown-menu" onClick={isMobile ? handleClick : handleClick}>
                     <div className="dropdown-button" onClick={isMobile ? handleClick : ""}>Data</div>
                     {click && 
                     <NavLink className="dropdown-button" to="/data-leiden">Enquête A</NavLink>
@@ -36,6 +36,9 @@ const Header = () => {
                     }
                     {click && 
                     <NavLink className="dropdown-button" to="/data-utrecht">Enquête C</NavLink>
+                    }
+                    {click && 
+                    <NavLink className="dropdown-button" to="/lockdown-tot-de-zomer">Lockdown?</NavLink>
                     }
                 </div>
             </div>

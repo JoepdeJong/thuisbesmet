@@ -9,6 +9,7 @@ import DataDelft from './DataDelft';
 import DataLeiden from './DataLeiden';
 import DataUtrecht from './DataUtrecht';
 import Organogram from './Organogram';
+import LockdownTotDeZomer from './LockdownTotDeZomer';
 import CookieConsent from 'react-cookie-consent';
 import ReactGA from 'react-ga';
 
@@ -29,6 +30,7 @@ const MainComponent = () => {
           <Route exact path="/organogram" component={Organogram}/>
           <Route exact path="/data-leiden" component={DataLeiden}/>
           <Route exact path="/data-utrecht" component={DataUtrecht}/>
+          <Route exact path="/lockdown-tot-de-zomer" component={LockdownTotDeZomer}/>
           <Route component={Home}/>
         </Switch>
         <Footer/>
