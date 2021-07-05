@@ -25,6 +25,7 @@ const Header = () => {
             <div className="Nav">
                 <NavLink className="Button" exact to="/"><span className="Button__default">{t('home.title')}</span><span className="Button__hover">{t('home.hoverTitle')}</span></NavLink>
                 <NavLink className="Button" to="/blog">{t('blog.title')}</NavLink>
+                <NavLink className="Button" to="/vacatures">{t('vacatures.title')}</NavLink>
                 <Anchorlink className="Button" itemName="Contact"></Anchorlink>
                 <div className="dropdown-menu" onClick={isMobile ? handleClick : handleClick}>
                     <div className="dropdown-button" onClick={isMobile ? handleClick : ""}>Data</div>

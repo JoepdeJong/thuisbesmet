@@ -4,9 +4,25 @@
         "title": "Home",
         "hoverTitle": "Home"
       },
+      "Janssen":{
+        "title": "Opportunities with Janssen",
+        "text": "<p>We managed to bring 5,000 Janssen vaccins to Delft for students. More info in the links below.</p>",
+        "btnNl":{
+          "title": "Read the letter (NL)",
+          "url": "https://thuisbesmet.nl/media/Janssen-biedt-je-kansen.pdf"
+        },
+        "btnEn":{
+          "title": "Read the letter (EN)",
+          "url": "https://thuisbesmet.nl/media/Janssen-biedt-je-kansen-eng.pdf"
+        }
+      },
       "lieve-mark":{
         "title": "Lieve Mark",
         "text": "<p>We are Lieve Mark, an initiative of 7 students from Leiden, Delft and Utrecht, assisted by the Interstedelijk Studenten Overleg. In the fall of 2020 we researched wellbeing, needs and opinions of students in the Netherlands during the corona pandemic.</p><p>Our goal is to give insight to the impact that the corona measures have on students. By doing this the corona policy can be adjusted better to the life of students. We think this is important for a more effective approach and to preserve support for the measures. With a better tailored policy we hope to keep infections low and minimise impact on society.</p><p>We are explicitly not complaining about policy or looking for special treatment. We realise that only together we can control the virus. Therefore, we want to contribute to the discussion how we can keep infections low under students. We also hope that the results of our research can and will be used for devising an intelligent open-up that also works for students.</p>"
+      },
+      "enquete3": {
+        "title": "Enquete 3 (NL)",
+        "url": "https://thuisbesmet.nl/media/Enquête3.pdf"
       },
       "survey":{
         "title":"Survey",
@@ -24,6 +40,10 @@
       },
       "dashboard": {
         "title": "Dashboard"
+      },
+      "vacatures": {
+        "title": "Vacancies",
+        "label": "Vacancy"
       },
       "report": {
         "title": "Report",

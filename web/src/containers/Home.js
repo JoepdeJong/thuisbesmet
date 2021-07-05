@@ -12,12 +12,17 @@ export default function Home() {
     return (
         <div>
             <section>
+                <h2>{t('Janssen.title')}</h2>
+                <Trans i18nKey="Janssen.text"></Trans>
+                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('Janssen.btnNl.url')} onClick={handleClickRapport}>{t('Janssen.btnNl.title')}</a>
+                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('Janssen.btnEn.url')} onClick={handleClickOnepager}>{t('Janssen.btnEn.title')}</a>
+            </section>
+
+            <section>
+                <h2>{t('lieve-mark.title')}</h2>
                 <div className="onepager">
                     <img src={onepager} alt="Onepager S.O.S."/>
                 </div>
-            </section>
-            <section>
-                <h2>{t('lieve-mark.title')}</h2>
                 <Trans i18nKey="lieve-mark.text"></Trans>
             </section>
             <section>
@@ -54,6 +59,7 @@ export default function Home() {
                 <Trans i18nKey="report.text"></Trans>
                 <a className="Button" target="_blank" rel="noopener noreferrer" href={t('report.btnNl.url')} onClick={handleClickRapport}>{t('report.btnNl.title')}</a>
                 <a className="Button" target="_blank" rel="noopener noreferrer" href={t('report.onepager.url')} onClick={handleClickOnepager}>{t('report.onepager.title')}</a>
+                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('enquete3.url')} onClick={handleClickEnquete3}>{t('enquete3.title')}</a>
             </section>
             
             {/*
@@ -128,5 +134,12 @@ function handleClickOnepager() {
     ReactGA.event({
         category: 'User',
         action: 'Onepager-Download'
+    })
+}
+
+function handleClickEnquete3() {
+    ReactGA.event({
+        category: 'User',
+        action: 'Enquete3-Download'
     })
 }

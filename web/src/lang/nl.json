@@ -4,9 +4,25 @@
         "title": "Home",
         "hoverTitle": "Thuis"
       },
+      "Janssen":{
+        "title": "Kansen met Janssen",
+        "text": "<p>We hebben 5.000 Janssen vaccins naar Delft kunnen halen voor studenten. Onder de volgende linkjes meer info.</p>",
+        "btnNl":{
+          "title": "Lees de brief (NL)",
+          "url": "https://thuisbesmet.nl/media/Janssen-biedt-je-kansen.pdf"
+        },
+        "btnEn":{
+          "title": "Lees de brief (EN)",
+          "url": "https://thuisbesmet.nl/media/Janssen-biedt-je-kansen-eng.pdf"
+        }
+      },
       "lieve-mark":{
         "title": "Lieve Mark,",
         "text": "<p>Wij zijn Lieve Mark, een initiatief van 7 studenten uit Leiden, Delft en Utrecht, bijgestaan door het Interstedelijk Studenten Overleg. In het najaar van 2020 hebben wij onder studenten in heel Nederland onderzoek gedaan naar het welzijn, de behoeftes en de meningen van studenten tijdens de coronapandemie.</p><p>Ons doel is om inzicht te geven in de impact die de coronamaatregelen hebben op studenten. Zo kan er meer maatwerk geboden worden in het coronabeleid. Wij denken dat dit van belang is voor een effectievere aanpak van het coronavirus en voor het behouden van draagvlak voor de maatregelen onder studenten. Wij willen met maatwerk het aantal besmettingen zo laag mogelijk houden en tegelijkertijd de impact op de samenleving beperken.</p><p>Klagen over het huidige coronabeleid of vragen om een uitzonderingspositie is nadrukkelijk niet ons uitgangspunt. Wij realiseren ons dat we uiteindelijk alleen samen het virus onder controle krijgen. Daarom denken wij graag constructief mee over hoe besmettingen onder studenten voorkomen kunnen worden. Wij hopen dan ook dat de resultaten van dit onderzoek gebruikt worden bij het uitdenken van een intelligente open-up die óók werkt voor studenten.</p>"
+      },
+      "enquete3": {
+        "title": "Enquête 3 (NL)",
+        "url": "https://thuisbesmet.nl/media/Enquête3.pdf"
       },
       "survey":{
         "title":"Enquête",
@@ -24,6 +40,10 @@
       },
       "dashboard": {
         "title": "Dashboard"
+      },
+      "vacatures": {
+        "title": "Vacatures",
+        "label": "Vacature"
       },
       "report": {
         "title": "Rapport",
