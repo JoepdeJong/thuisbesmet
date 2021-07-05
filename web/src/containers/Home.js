@@ -14,8 +14,9 @@ export default function Home() {
             <section>
                 <h2>{t('Janssen.title')}</h2>
                 <Trans i18nKey="Janssen.text"></Trans>
-                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('Janssen.btnNl.url')} onClick={handleClickRapport}>{t('Janssen.btnNl.title')}</a>
-                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('Janssen.btnEn.url')} onClick={handleClickOnepager}>{t('Janssen.btnEn.title')}</a>
+                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('Janssen.btnNl.url')} onClick={handleClickJanssen}>{t('Janssen.btnNl.title')}</a>
+                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('Janssen.btnEn.url')} onClick={handleClickJanssen}>{t('Janssen.btnEn.title')}</a>
+                <a className="Button" target="_blank" rel="noopener noreferrer" href={t('Janssen.btnPoster.url')} onClick={handleClickJanssen}>{t('Janssen.btnPoster.title')}</a>            
             </section>
 
             <section>
@@ -141,5 +142,12 @@ function handleClickEnquete3() {
     ReactGA.event({
         category: 'User',
         action: 'Enquete3-Download'
+    })
+}
+
+function handleClickJanssen() {
+    ReactGA.event({
+        category: 'User',
+        action: 'Janssen-Download'
     })
 }

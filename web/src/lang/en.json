@@ -6,7 +6,7 @@
       },
       "Janssen":{
         "title": "Opportunities with Janssen",
-        "text": "<p>We managed to bring 5,000 Janssen vaccins to Delft for students. More info in the links below.</p>",
+        "text": "<p>We managed to bring Janssen vaccins to Delft for students. More info in the links below.</p>",
         "btnNl":{
           "title": "Read the letter (NL)",
           "url": "https://thuisbesmet.nl/media/Janssen-biedt-je-kansen.pdf"
@@ -14,6 +14,10 @@
         "btnEn":{
           "title": "Read the letter (EN)",
           "url": "https://thuisbesmet.nl/media/Janssen-biedt-je-kansen-eng.pdf"
+        },
+        "btnPoster":{
+          "title": "See the poster (NL)",
+          "url": "https://thuisbesmet.nl/media/Janssen-poster.pdf"
         }
       },
       "lieve-mark":{
