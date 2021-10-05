@@ -154,3 +154,40 @@ a.Button {
     border-color: black;
 }
 
+.row {
+    display: flex;
+  }
+
+.column {
+    img {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.column:hover img {
+    opacity: 0.7;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+}

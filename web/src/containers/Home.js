@@ -4,13 +4,58 @@ import { useTranslation, Trans } from 'react-i18next';
 import BlogList from '../Components/Blog/List';
 import { Link } from 'react-router-dom';
 import ReactGA from 'react-ga';
-import Carousel from 'react-elastic-carousel'
-import onepager from '../assets/img/onepager.png'
+import Carousel from 'react-elastic-carousel';
+import onepager from '../assets/img/onepager.png';
+import lievemark1 from '../assets/img/lievemark1.jpg';
+import lievemark2 from '../assets/img/lievemark2.jpg';
+import lievemark3 from '../assets/img/lievemark3.jpg';
+import lievemark4 from '../assets/img/lievemark4.jpg';
+import lievemark5 from '../assets/img/lievemark5.jpg';
+import lievemark6 from '../assets/img/lievemark6.jpg';
 
 export default function Home() {
     const { t } = useTranslation()
     return (
         <div>
+            <section>
+                <h2>{t('LMxTOC.title')}</h2>
+                <div class="row">
+                    <div class="column">
+                        <a href="https://www.instagram.com/p/CUm4SEGtmrV/?utm_source=ig_web_copy_link"><img class="LMimg" src={lievemark6} alt="Onepager S.O.S."/></a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.instagram.com/p/CUm4LIKNqZA/?utm_source=ig_web_copy_link"><img class="LMimg" src={lievemark5} alt="Onepager S.O.S."/></a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.instagram.com/p/CUm39Y_tals/?utm_source=ig_web_copy_link"><img class="LMimg" src={lievemark4} alt="Onepager S.O.S."/></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <a href="https://www.instagram.com/p/CUm35ikNyeu/?utm_source=ig_web_copy_link"><img class="LMimg" src={lievemark3} alt="Onepager S.O.S."/></a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.instagram.com/p/CUm34GbNBqe/?utm_source=ig_web_copy_link"><img class="LMimg" src={lievemark2} alt="Onepager S.O.S."/></a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.instagram.com/p/CUm32ylNz3g/?utm_source=ig_web_copy_link"><img class="LMimg" src={lievemark1} alt="Onepager S.O.S."/></a>
+                    </div>
+                </div>
+                <Trans i18nKey="LMxTOC.text">
+                    <Link to="https://youtu.be/_z217MtKzHo">description</Link>
+                    <Link to="https://timeoutcafe.nu">description</Link>
+                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSer4UK8851F3zASpbqSCUseCOlVpaYn7Z79T6OaBsvAOboGQA/viewform?usp=sf_link">description</Link>
+                    <Link to="https://www.timeoutcafe.nu/livestream/">description</Link>
+                </Trans>
+                <div class="container">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_z217MtKzHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <Trans i18nKey="LMxTOC.text2">
+                    <Link to="http://thuisbesmet.nl/">description</Link>
+                    <Link to="https://timeoutcafe.nu/">description</Link>
+                    <h3>description</h3>
+                </Trans> 
+            </section> 
             <section>
                 <h2>{t('Janssen.title')}</h2>
                 <Trans i18nKey="Janssen.text"></Trans>
